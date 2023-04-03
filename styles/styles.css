@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(44, 41, 44);
+    letter-spacing: 1px;
+}
+
+
+#main-header{
+    background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+    color: white;
+    padding: 2rem 5%;
+    text-align: center;
+}
+
+#main-header h1{
+    letter-spacing: 3.5px;
+    word-spacing: 5px;
+}
+
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: #3147b3;
+    border: 1px solid #3147b3;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.btn-alt{
+    background-color: transparent;
+    border-color: transparent;
+    color: #364fc7;
+}
+
+.btn:hover{
+    background-color: #364fc7;
+    border-color: #364fc7;
+}
+
+.btn-alt:hover{
+    background-color: #c3caee;
+    border-color: transparent;
+}
